@@ -444,15 +444,22 @@ footer {
         margin-bottom: 30px;
         
     }
+    #artistcovercon{
+          height: 20%;
+    }
+  
     
     #artistcover div {
-      
+      margin: 10px;
+        overflow: auto;
+        width: 100%
     }
     #songlistcon{
         margin-left: 20px;
          margin-right: 20px;
         flex-wrap: wrap;
         margin-bottom: 30px;
+        display: block;
     }
     
     #songlistcon #songs{
@@ -466,7 +473,7 @@ footer {
         max-width: 100%;
         margin-left: 0px;
        overflow: auto;
-     height: 25%;
+     height: 27%;
         display: block;
     }
 }
